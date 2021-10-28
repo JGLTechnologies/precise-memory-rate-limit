@@ -6,10 +6,15 @@
   "directories": {
     "lib": "lib"
   },
-  "scripts": {
-    
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nebulizer1213/precise-memory-rate-limit.git"
   },
   "keywords": ["ratelimit", "express", "express-rate-limit", "rate-limit", "memory"],
   "author": "Nebula",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nebulizer1213/precise-memory-rate-limit/issues"
+  },
+  "homepage": "https://github.com/Nebulizer1213/precise-memory-rate-limit"
 }
