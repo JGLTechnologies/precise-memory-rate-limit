@@ -1,6 +1,6 @@
 {
   "name": "precise-memory-rate-limit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A store for express-rate-limit that provides precise in memory rate limit storage.",
   "main": "index.js",
   "directories": {
@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Nebulizer1213/precise-memory-rate-limit.git"
   },
-  "keywords": ["ratelimit", "express", "express-rate-limit", "rate-limit", "memory"],
+  "keywords": [
+    "ratelimit",
+    "express",
+    "express-rate-limit",
+    "rate-limit",
+    "memory"
+  ],
   "author": "Nebula",
   "license": "ISC",
   "bugs": {
