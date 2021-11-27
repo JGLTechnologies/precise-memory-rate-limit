@@ -17,9 +17,9 @@ const rateLimit = require("express-rate-limit");
 const preciseMemory = require("precise-memory-rate-limit")
 
 const limiter = rateLimit({
-  store: new preciseMemory(15 * 60 * 1000, 100), // Use the same as windowMs
-  windowMs: 15 * 60 * 1000,
-  max: 100
+  store: new preciseMemory(15 * 60 * 1000, 100),
+  windowMs: 15 * 60 * 1000, // Make sure this is the same as the windowMS passed into the preciseMemory constructor
+  max: 100 // Make sure this is the same as the maxCalls passed into the preciseMemory constructor
 });
 
 app.use(limiter);
