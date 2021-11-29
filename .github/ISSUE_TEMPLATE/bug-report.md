@@ -22,6 +22,10 @@ Before you submit this request make sure you are using the latest version of pre
 ### Code to generate the bug
 
 
+```go
+// Code to generate the bug
+```
+
 
 ### What is expected to happen
 
