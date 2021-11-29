@@ -11,7 +11,7 @@ assignees: ''
 
 Before you submit this request make sure you are using the latest version of precise-memory-rate-limit.
 
-### Go version
+### Node version
 
 
 
@@ -22,7 +22,7 @@ Before you submit this request make sure you are using the latest version of pre
 ### Code to generate the bug
 
 
-```go
+```js
 // Code to generate the bug
 ```
 
