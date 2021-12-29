@@ -3,13 +3,14 @@ name: Bug Report
 about: Bug report template
 title: ''
 labels: bug
-assignees: ''
+assignees: Nebulizer1213
 
 ---
 
 # Bug Report
 
 Before you submit this request make sure you are using the latest version of precise-memory-rate-limit.
+If you want faster support you can go to https://jgltechnologies.com/contact and link this issue in the message box.
 
 ### Node version
 
