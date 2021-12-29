@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nebulizer1213/precise-memory-rate-limit.git"
+    "url": "git+https://github.com/JGLTechnologies/precise-memory-rate-limit.git"
   },
   "keywords": [
     "ratelimit",
@@ -20,7 +20,7 @@
   "author": "Nebula",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nebulizer1213/precise-memory-rate-limit/issues"
+    "url": "https://github.com/JGLTechnologies/precise-memory-rate-limit/issues"
   },
-  "homepage": "https://github.com/Nebulizer1213/precise-memory-rate-limit"
+  "homepage": "https://github.com/JGLTechnologies/precise-memory-rate-limit"
 }
