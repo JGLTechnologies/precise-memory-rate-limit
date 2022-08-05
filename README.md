@@ -19,10 +19,12 @@ const MemoryStore = require("precise-memory-rate-limit")
 const max = 10
 
 const limiter = rateLimit({
-  store: new MemoryStore(max),
-  windowMs: 15 * 60 * 1000,
-  max: max // Make sure this is the same as the max passed into the MemoryStore constructor
+    store: new MemoryStore(max),
+    windowMs: 15 * 60 * 1000,
+    max: max // Make sure this is the same as the max passed into the MemoryStore constructor
 })
 
 app.use(limiter)
 ```
+
+precise-memory-ratelimit does not currently support using a middleware for the max
