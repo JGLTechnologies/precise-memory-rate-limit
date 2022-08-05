@@ -13,14 +13,16 @@ $ npm install --save precise-memory-rate-limit
 ### Example
 
 ```js
-const rateLimit = require("express-rate-limit");
-const preciseMemory = require("precise-memory-rate-limit")
+const rateLimit = require("express-rate-limit")
+const MemoryStore = require("precise-memory-rate-limit")
+
+const max = 10
 
 const limiter = rateLimit({
-  store: new preciseMemory(15 * 60 * 1000, 100),
-  windowMs: 15 * 60 * 1000, // Make sure this is the same as the windowMS passed into the preciseMemory constructor
-  max: 100 // Make sure this is the same as the maxCalls passed into the preciseMemory constructor
-});
+  store: new MemoryStore(max),
+  windowMs: 15 * 60 * 1000,
+  max: max // Make sure this is the same as the max passed into the MemoryStore constructor
+})
 
-app.use(limiter);
+app.use(limiter)
 ```
